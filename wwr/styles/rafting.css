@@ -54,6 +54,7 @@ header img {
 
 nav a {
     margin-right: 20px;
+    color: var(--secondary-color);
 }
 
 .hero {
@@ -109,7 +110,7 @@ footer {
     justify-content: space-between;
     align-items: center;
 
-    background-color: var(--primary-color);
+    background-color: var(--accent2-color);
     color: white;
 }
 
