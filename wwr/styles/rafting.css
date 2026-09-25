@@ -1,9 +1,8 @@
 :root {
     /* W04 updated */
     --primary-color: #1b4965;
-    --secondary-color: #62b6cb;
     --accent1-color: #cae9ff;
-    --accent2-color: #5fa8d3;
+    --accent2-color: #1b4965;
 
     --heading-font: Georgia, "Times New Roman", serif;
     --body-font: Arial, Helvetica, sans-serif;
