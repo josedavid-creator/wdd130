@@ -89,20 +89,19 @@ input[type="checkbox"] {
     align-items: center;
 }
 
-/* Places lived */
-.form-item:last-child {
+.places-lived {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
     gap: 0.5rem;
 }
 
-.form-item:last-child label {
+.places-lived label {
     text-align: center;
     padding-right: 0;
 }
 
-.form-item:last-child textarea {
+.places-lived textarea {
     width: 100%;
 }
 
