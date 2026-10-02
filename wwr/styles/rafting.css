@@ -1,5 +1,4 @@
 :root {
-    /* W04 updated */
     --primary-color: #1b4965;
     --accent1-color: #cae9ff;
     --accent2-color: #1b4965;
@@ -32,7 +31,9 @@ h2 {
     color: var(--primary-color);
 }
 
-/* HEADER */
+/* =========================
+   HEADER
+   ========================= */
 
 header {
     display: grid;
@@ -48,7 +49,9 @@ header > img {
     height: auto;
 }
 
-/* NAVIGATION */
+/* =========================
+   NAVIGATION
+   ========================= */
 
 header nav {
     display: flex;
@@ -67,7 +70,9 @@ header nav a:hover {
     background-color: var(--primary-color);
 }
 
-/* HERO */
+/* =========================
+   HERO
+   ========================= */
 
 .hero {
     position: relative;
@@ -108,7 +113,9 @@ header nav a:hover {
     margin-left: 15px;
 }
 
-/* HISTORY */
+/* =========================
+   HISTORY
+   ========================= */
 
 .history {
     margin-top: 30px;
@@ -137,7 +144,9 @@ header nav a:hover {
     line-height: 1.5;
 }
 
-/* ADVENTURES */
+/* =========================
+   ADVENTURES
+   ========================= */
 
 .adventures {
     margin-top: 30px;
@@ -171,7 +180,206 @@ header nav a:hover {
     margin-top: 8px;
 }
 
-/* FOOTER */
+/* =========================
+   CONTACT PAGE
+   ========================= */
+
+.contact-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+/* Main Contact Title */
+
+.contact-page > h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* =========================
+   CONTACT INFORMATION
+   ========================= */
+
+.contact-info {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+}
+
+/* =========================
+   MAP
+   ========================= */
+
+.map-section {
+    grid-column: 1;
+    padding: 0 20px;
+}
+
+.map-section iframe {
+    display: block;
+    width: 100%;
+    height: 250px;
+    border: 0;
+}
+
+/* =========================
+   CONTACT FORM
+   ========================= */
+
+.contact-form {
+    grid-column: 2;
+    padding: 0 20px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    column-gap: 10px;
+    row-gap: 5px;
+    align-items: start;
+}
+
+.contact-form label {
+    font-weight: normal;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    font-family: var(--body-font);
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Message Purpose */
+
+.contact-form form > p {
+    margin: 4px 0 0;
+    line-height: 1.1;
+}
+
+.radio-options {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.radio-options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+    margin: 0;
+}
+
+/* Message */
+
+.contact-form .message-label {
+    grid-column: 1 / -1;
+    margin-top: 5px;
+}
+
+.contact-form textarea {
+    grid-column: 1 / -1;
+}
+
+/* Newsletter */
+
+.contact-form .newsletter {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 2px;
+}
+
+/* Button */
+
+.contact-form button {
+    grid-column: 1 / -1;
+    width: 100%;
+    padding: 10px;
+
+    background-color: var(--primary-color);
+    color: white;
+
+    border: none;
+
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+/* =========================
+   EMPLOYEES
+   ========================= */
+
+.employees {
+    grid-column: 1 / -1;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.employees h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.employee-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.employee-gallery figure {
+    flex: 1;
+    text-align: center;
+}
+
+.employee-gallery img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.employee-gallery figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
 
 footer {
     display: flex;
@@ -180,6 +388,7 @@ footer {
 
     background-color: var(--accent2-color);
     color: white;
+
     padding: 15px 20px;
     margin-top: 30px;
 }
