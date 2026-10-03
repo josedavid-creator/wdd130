@@ -31,9 +31,7 @@ h2 {
     color: var(--primary-color);
 }
 
-/* =========================
-   HEADER
-   ========================= */
+/* HEADER */
 
 header {
     display: grid;
@@ -48,9 +46,7 @@ header > img {
     height: auto;
 }
 
-/* =========================
-   NAVIGATION
-   ========================= */
+/* NAVIGATION */
 
 header nav {
     display: flex;
@@ -69,9 +65,7 @@ header nav a:hover {
     background-color: var(--primary-color);
 }
 
-/* =========================
-   HERO
-   ========================= */
+/* HERO */
 
 .hero {
     position: relative;
@@ -110,9 +104,7 @@ header nav a:hover {
     margin-left: 15px;
 }
 
-/* =========================
-   HISTORY
-   ========================= */
+/* HISTORY */
 
 .history {
     margin-top: 30px;
@@ -141,9 +133,7 @@ header nav a:hover {
     line-height: 1.5;
 }
 
-/* =========================
-   ADVENTURES
-   ========================= */
+/* ADVENTURES */
 
 .adventures {
     margin-top: 30px;
@@ -177,9 +167,7 @@ header nav a:hover {
     margin-top: 8px;
 }
 
-/* =========================
-   CONTACT PAGE
-   ========================= */
+/* CONTACT PAGE */
 
 .contact-page {
     display: grid;
@@ -194,9 +182,7 @@ header nav a:hover {
     margin-bottom: 0;
 }
 
-/* =========================
-   CONTACT INFORMATION
-   ========================= */
+/* CONTACT INFORMATION */
 
 .contact-info {
     grid-column: 1 / -1;
@@ -212,9 +198,7 @@ header nav a:hover {
     margin-bottom: 5px;
 }
 
-/* =========================
-   MAP
-   ========================= */
+/* MAP */
 
 .map-section {
     grid-column: 1;
@@ -228,9 +212,7 @@ header nav a:hover {
     border: 0;
 }
 
-/* =========================
-   CONTACT FORM
-   ========================= */
+/* CONTACT FORM */
 
 .contact-form {
     grid-column: 2;
@@ -263,12 +245,6 @@ header nav a:hover {
     font-size: 1rem;
 }
 
-.contact-form textarea {
-    grid-column: 1 / -1;
-    resize: vertical;
-    min-height: 100px;
-}
-
 .contact-form form > p {
     margin: 4px 0 0;
     line-height: 1.1;
@@ -291,18 +267,20 @@ header nav a:hover {
     margin: 0;
 }
 
-/* =========================
-   MESSAGE
-   ========================= */
+/* MESSAGE */
 
 .contact-form .message-label {
     grid-column: 1 / -1;
     margin-top: 5px;
 }
 
-/* =========================
-   NEWSLETTER
-   ========================= */
+.contact-form textarea {
+    grid-column: 1 / -1;
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* NEWSLETTER */
 
 .contact-form .newsletter {
     grid-column: 1 / -1;
@@ -312,9 +290,7 @@ header nav a:hover {
     margin-top: 2px;
 }
 
-/* =========================
-   BUTTON
-   ========================= */
+/* BUTTON */
 
 .contact-form button {
     grid-column: 1 / -1;
@@ -332,9 +308,7 @@ header nav a:hover {
     color: var(--primary-color);
 }
 
-/* =========================
-   EMPLOYEES
-   ========================= */
+/* EMPLOYEES */
 
 .employees {
     grid-column: 1 / -1;
@@ -370,9 +344,7 @@ header nav a:hover {
     font-size: 14px;
 }
 
-/* =========================
-   FOOTER
-   ========================= */
+/* FOOTER */
 
 footer {
     display: flex;
