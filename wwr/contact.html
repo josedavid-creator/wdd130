@@ -43,7 +43,7 @@
 
             <p>
                 <strong>Phone:</strong>
-                +55 11 91 5353 833
+                +55 92 1234-5678
             </p>
 
             <p>
@@ -53,13 +53,13 @@
 
         </section>
 
-        <section class="map-section">
+        <div class="map-section">
 
             <iframe src="https://www.google.com/maps?q=Manaus%2C%20Brazil&output=embed" width="600"
-              height="300" loading="lazy">
+              height="300" loading="lazy" title="Map showing the location of Amazon Rapids Rafting">
             </iframe>
 
-        </section>
+        </div>
 
         <section class="contact-form">
 
@@ -82,30 +82,32 @@
 
                 <div class="radio-options">
 
-                    <label>
-                        <input type="radio" name="purpose" value="general">
+                    <label for="general">
+                        <input type="radio" id="general" name="purpose" value="general">
                         General Inquiry
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="reservation">
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
                         Reservation Question
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="suggestion">
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
                         Website Suggestion
                     </label>
 
                 </div>
 
-                <label for="message">Message</label>
+                <label for="message" class="message-label">
+                    Message
+                </label>
 
-                <textarea id="message" name="message" rows="" placeholder="Type here"></textarea>
+                <textarea id="message" name="message" rows="5" placeholder="Type here"></textarea>
 
-                <label class="newsletter">
+                <label class="newsletter" for="newsletter">
 
-                    <input type="checkbox" name="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
 
                     Please subscribe me to the monthly newsletter
 
@@ -126,21 +128,21 @@
             <div class="employee-gallery">
 
                 <figure>
-                    <img src="images/josee.jpg" alt="Rafting guide">
+                    <img src="images/happy-client.jpg" alt="Rafting guide">
                     <figcaption>
                         Jose David - Lead Rafting Guide
                     </figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/maria.jpg" alt="Rafting instructor">
+                    <img src="images/rafting-fun.jpg" alt="Rafting instructor">
                     <figcaption>
                         Maria - Safety Instructor
                     </figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/carlosss.avif" alt="Customer service representative">
+                    <img src="images/rafting-fun-1.jpg" alt="Customer service representative">
                     <figcaption>
                         Carlos - Customer Service Manager
                     </figcaption>
